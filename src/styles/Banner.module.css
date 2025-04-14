@@ -1,0 +1,44 @@
+.banner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Замените на реальное соотношение сторон вашего изображения */
+  overflow: hidden;
+}
+
+.slogan {
+  position: relative;
+  top: 140px;
+  width: 762px;
+  color: white;
+}
+
+.slogan h1 {
+  font-family: 'monospace';
+  font-weight: 400;
+  font-size: 48px;
+  padding-bottom: 40px;
+}
+
+.slogan h2 {
+  font-family: 'PoiretOne';
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.buttonCenter {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 110px;
+}
+
+.button {
+  width: 251px;
+  height: 48px;
+  background: #ffffff;
+}
+
+.button:hover {
+  background-color: #c2aa3c;
+}

@@ -1,0 +1,43 @@
+.headerUp {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 68px;
+  z-index: 10;
+  color: rgba(48, 48, 51, 1) a;
+}
+
+.brand {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 36px;
+  left: 0px;
+}
+
+.back {
+  font-family: 'PTSerif-Regular';
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+}
+
+.mainNav {
+  font-family: 'PTSerif-Regular';
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}
+
+.headerDown {
+  color: rgba(102, 102, 102, 1);
+  margin-bottom: 20px;
+}

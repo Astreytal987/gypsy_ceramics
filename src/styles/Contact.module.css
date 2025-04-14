@@ -1,0 +1,25 @@
+.contactBlock {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px;
+  padding: 140px 0px;
+  gap: 40px;
+}
+
+.contactsText {
+  font-family: 'CormorantUnicase-Medium';
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.contacts {
+  font-family: 'CormorantUnicase-Regular';
+  font-weight: 400;
+  display: flex;
+  gap: 20px;
+}
+
+.contact {
+  font-size: 36px;
+  text-decoration: underline;
+}
