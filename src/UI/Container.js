@@ -1,8 +1,6 @@
-import styles from '@/styles/Container.module.css';
-
-export default function ({children, padding = 60, style}) {
+export default function ({children, padding = 180, style, className}) {
     return (
-        <div style={{ padding: `0px ${padding}px`, ...style}} className={styles.container}>
+        <div style={{ padding: `0px ${padding}px`, ...style}} className={className}>
             {children}
         </div>
     )    

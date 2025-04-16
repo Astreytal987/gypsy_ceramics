@@ -46,3 +46,51 @@
   font-weight: 500;
   font-size: 24px;
 }
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .titlegrid {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .titlegrid {
+    font-size: 20px;
+  }
+
+  .gridBox {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 20px;
+  }
+
+  .Collection {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .Gift {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .Brend {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 42px;
+  }
+
+  .titlegrid {
+    font-size: 16px;
+  }
+}

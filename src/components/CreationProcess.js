@@ -1,11 +1,9 @@
 import styles from '@/styles/CreationProcess.module.css';
-import A from '../UI/A.js';
 import Container from '../UI/Container.js';
-import Image from "next/image";
 
 const CreationProcess = () => {
   return (
-    <Container padding={180}>
+    <Container className="container">
         <h2 className={styles.title}>Процесс создания</h2>
         <div className={styles.gridBox}>
             <div className={styles.Collection}>

@@ -39,3 +39,31 @@
 .price {
   font-size: 24px;
 }
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .titleProp {
+    font-size: 24px;
+  }
+
+  .textBlock {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 42px;
+  }
+
+  .titleProp {
+    font-size: 32px;
+  }
+}

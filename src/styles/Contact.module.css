@@ -1,7 +1,7 @@
 .contactBlock {
   display: flex;
   justify-content: center;
-  padding: 60px 0px;
+  align-items: center;
   padding: 140px 0px;
   gap: 40px;
 }
@@ -22,4 +22,38 @@
 .contact {
   font-size: 36px;
   text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .contactsText {
+    font-size: 24px;
+  }
+
+  .contact {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactBlock {
+    flex-direction: column;
+  }
+
+  .contactsText {
+    font-size: 32px;
+  }
+
+  .contact {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 360px) {
+  .contactsText {
+    font-size: 28px;
+  }
+
+  .contact {
+    font-size: 20px;
+  }
 }

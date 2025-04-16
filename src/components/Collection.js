@@ -33,7 +33,7 @@ const text13 = `Материалы и техника: Подсвечник из
 
 
   return (
-    <Container padding={180}>
+    <Container className="container">
         <h2 className={styles.title}>Коллекция</h2>
         <div className={styles.collection}>
             <div className={styles.collectionItem}>
@@ -69,7 +69,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     <p>{text}</p>
                     <p>{text2}</p>
                     <p>{text3}</p>
-                    <p className='price'>Цена: 7 000 ₽</p>
+                    <p className={styles.price}>Цена: 7 000 ₽</p>
                 </div>
             </div>
             <div className={styles.collectionItem}>
@@ -104,7 +104,7 @@ const text13 = `Материалы и техника: Подсвечник из
                 <div className={styles.textBlock}>
                     <p>{text4}</p>
                     <p>{text5}</p>
-                    <p className='price'>Цена: 11 000 ₽</p>
+                    <p className={styles.price}>Цена: 11 000 ₽</p>
                 </div>
             </div>
             <div className={styles.collectionItem}>
@@ -139,7 +139,7 @@ const text13 = `Материалы и техника: Подсвечник из
                 <div className={styles.textBlock}>
                     <p>{text6}</p>
                     <p>{text7}</p>
-                    <p className='price'>Цена: 4 000 ₽</p>
+                    <p className={styles.price}>Цена: 4 000 ₽</p>
                 </div>
             </div>
             <div className={styles.collectionItem}>
@@ -157,7 +157,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     <p>{text8}</p>
                     <p>{text9}</p>
                     <p>{text10}</p>
-                    <p className='price'>Цена: 19 000 ₽</p>
+                    <p className={styles.price}>Цена: 19 000 ₽</p>
                 </div>
             </div>
             <div className={styles.collectionItem}>

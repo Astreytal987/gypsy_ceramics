@@ -1,19 +1,35 @@
 .navbar {
-  position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 68px;
-  z-index: 10;
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  z-index: 20;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0px 60px;
+}
+
+.menubutton {
+  visibility: visible;
+}
+
+@media (min-width: 1024px) {
+  .menubutton {
+    visibility: hidden !important;
+    width: 273px;
+  }
 }
 
 .brand {
   font-family: sans-serif;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  /* position: absolute; */
   font-size: 36px;
-  left: 0px;
+  /* left: 0px; */
 }
 
 .mainNav {
@@ -26,4 +42,28 @@
   list-style: none;
 }
 
+@media (max-width: 1024px) {
+  .mainNav {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    background-color: white;
+    flex-direction: column;
+    opacity: 0;
+
+    padding: 79px auto 170px 30px;
+  }
+}
+
 /* style={{ position: 'sticky' }} */
+
+.NavContact {
+  display: none;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .NavContact {
+    display: block;
+  }
+}

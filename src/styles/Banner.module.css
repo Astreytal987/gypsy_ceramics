@@ -1,7 +1,7 @@
 .banner {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9; /* Замените на реальное соотношение сторон вашего изображения */
+  aspect-ratio: 16 / 9;
   overflow: hidden;
 }
 
@@ -12,11 +12,83 @@
   color: white;
 }
 
+.containerSlogan {
+  padding: 0 60px;
+}
+
 .slogan h1 {
   font-family: 'monospace';
   font-weight: 400;
   font-size: 48px;
   padding-bottom: 40px;
+}
+
+.BrActive {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .containerSlogan {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 1365px;
+    overflow: hidden;
+  }
+
+  .BannerImg {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerSlogan {
+    padding: 0 10px;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 850px;
+    overflow: hidden;
+  }
+
+  .slogan h1 {
+    font-size: 32px;
+  }
+
+  .slogan h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 360px) {
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    overflow: hidden;
+  }
+
+  .BrActive {
+    display: block;
+  }
+
+  .slogan h1 {
+    font-size: 32px;
+  }
+
+  .slogan h2 {
+    font-size: 24px;
+  }
 }
 
 .slogan h2 {
@@ -39,6 +111,14 @@
   background: #ffffff;
 }
 
-.button:hover {
-  background-color: #c2aa3c;
+@media (hover: hover) {
+  .button:hover {
+    background-color: #c2aa3c;
+  }
+}
+
+@media (hover: none) {
+  .button:active {
+    background-color: #c2aa3c;
+  }
 }

@@ -14,15 +14,15 @@ const Banner = () => {
             quality={100}
             className={styles.BannerImg}
         />
-        <Container>
+        <div className={styles.containerSlogan}>
             <div className={styles.slogan}>
-                <h1>Уникальная керамика для вашего вдохновения</h1>
-                <h2>Современное искусство и керамика ручной работы</h2>
+                <h1>Уникальная керамика <br /> для вашего <br className={styles.BrActive}/>  вдохновения</h1>
+                <h2>Современное искусство <br className={styles.BrActive}/> и керамика <br /> ручной работы</h2>
             </div>
             <div className={styles.buttonCenter}>
                 <button className={styles.button}>Смотреть изделия</button>
             </div>
-        </Container>
+        </div>
     </section>
   );
 };
