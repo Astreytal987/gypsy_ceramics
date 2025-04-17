@@ -1,8 +1,12 @@
 .banner {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
   overflow: hidden;
+  height: 100vh;
+}
+
+.BannerImg {
+  object-fit: cover;
 }
 
 .slogan {
@@ -21,6 +25,12 @@
   font-weight: 400;
   font-size: 48px;
   padding-bottom: 40px;
+}
+
+.slogan h2 {
+  font-family: 'PoiretOne';
+  font-weight: 400;
+  font-size: 36px;
 }
 
 .BrActive {
@@ -91,24 +101,20 @@
   }
 }
 
-.slogan h2 {
-  font-family: 'PoiretOne';
-  font-weight: 400;
-  font-size: 36px;
-}
-
 .buttonCenter {
   position: absolute;
   width: 100%;
   display: flex;
   justify-content: center;
   bottom: 110px;
+  left: 0;
 }
 
 .button {
   width: 251px;
   height: 48px;
   background: #ffffff;
+  font-size: 24px;
 }
 
 @media (hover: hover) {

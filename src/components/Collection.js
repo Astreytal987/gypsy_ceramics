@@ -33,11 +33,12 @@ const text13 = `Материалы и техника: Подсвечник из
 
 
   return (
-    <Container className="container">
-        <h2 className={styles.title}>Коллекция</h2>
+    <Container className={"container" + " " + styles.containerCollection}>
+        <h2 className={styles.title + " " + "containerInnerCollection"}>Коллекция</h2>
         <div className={styles.collection}>
             <div className={styles.collectionItem}>
                 <h3 className={styles.titleProp}>Мудрый Каа</h3>
+                <div className={styles.ImgContainer}>
                 <Image
                     src="/snakeFirst.png"
                     alt="Описание изображения"
@@ -65,7 +66,8 @@ const text13 = `Материалы и техника: Подсвечник из
                     height={1080}
                     quality={100} 
                     />
-                <div className={styles.textBlock}>
+                </div>
+                <div className={styles.textBlock + " " + "containerInnerCollection"}>
                     <p>{text}</p>
                     <p>{text2}</p>
                     <p>{text3}</p>
@@ -74,6 +76,7 @@ const text13 = `Материалы и техника: Подсвечник из
             </div>
             <div className={styles.collectionItem}>
                 <h3 className={styles.titleProp}>Шахматная доска</h3>
+                <div className={styles.ImgContainer}>
                 <Image
                     src="/chessFirst.png"
                     alt="Описание изображения"
@@ -101,7 +104,8 @@ const text13 = `Материалы и техника: Подсвечник из
                     height={550}
                     quality={100} 
                     />
-                <div className={styles.textBlock}>
+                </div>
+                <div className={styles.textBlock + " " + "containerInnerCollection"}>
                     <p>{text4}</p>
                     <p>{text5}</p>
                     <p className={styles.price}>Цена: 11 000 ₽</p>
@@ -109,6 +113,7 @@ const text13 = `Материалы и техника: Подсвечник из
             </div>
             <div className={styles.collectionItem}>
                 <h3 className={styles.titleProp}>Уязвимость дебюта</h3>
+                <div className={styles.ImgContainer}>
                 <Image
                     src="/debutFirst.png"
                     alt="Описание изображения"
@@ -136,14 +141,15 @@ const text13 = `Материалы и техника: Подсвечник из
                     height={500}
                     quality={100} 
                     />
-                <div className={styles.textBlock}>
+                 </div>
+                <div className={styles.textBlock + " " + "containerInnerCollection"}>
                     <p>{text6}</p>
                     <p>{text7}</p>
                     <p className={styles.price}>Цена: 4 000 ₽</p>
                 </div>
             </div>
             <div className={styles.collectionItem}>
-                <h3 className={styles.titleProp}>Богема 	цирка, Шут или Арлекин?</h3>
+                <h3 className={styles.titleProp}>Богема 	цирка, <br className={styles.BrActive}/> Шут или Арлекин?</h3>
                 <Image
                     src="/clown.png"
                     alt="Описание изображения"
@@ -153,7 +159,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     height={1080}
                     quality={100} 
                     />
-                <div className={styles.textBlock}>
+                <div className={styles.textBlock + " " + "containerInnerCollection"}>
                     <p>{text8}</p>
                     <p>{text9}</p>
                     <p>{text10}</p>
@@ -162,6 +168,7 @@ const text13 = `Материалы и техника: Подсвечник из
             </div>
             <div className={styles.collectionItem}>
                 <h3 className={styles.titleProp}>«Морское величество»</h3>
+                <div className={styles.ImgContainer}>
                 <Image
                     src="/uniqFirst.png"
                     alt="Описание изображения"
@@ -180,7 +187,8 @@ const text13 = `Материалы и техника: Подсвечник из
                     height={1080}
                     quality={100} 
                     />
-                <div className={styles.textBlock}>
+                </div>
+                <div className={styles.textBlock + " " + "containerInnerCollection"}>
                     <p>{text11}</p>
                     <p>{text12}</p>
                     <p>{text13}</p>

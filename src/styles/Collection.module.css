@@ -10,7 +10,6 @@
   flex-direction: column;
   align-items: center;
   gap: 69px;
-  margin-bottom: 140px;
 }
 
 .collectionItem {
@@ -24,6 +23,18 @@
   font-family: 'CormorantUnicase-Medium';
   font-weight: 500;
   font-size: 32px;
+  text-align: center;
+}
+
+.BrActive {
+  display: none;
+}
+
+.ImgContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .textBlock {
@@ -58,6 +69,16 @@
   }
 }
 
+@media (max-width: 768px) {
+  .containerCollection {
+    padding: 0 0px !important;
+  }
+
+  /* .ImgContainer {
+    scroll-snap-type: y mandatory;
+  } ожидает */
+}
+
 @media (max-width: 480px) {
   .title {
     font-size: 42px;
@@ -65,5 +86,9 @@
 
   .titleProp {
     font-size: 32px;
+  }
+
+  .BrActive {
+    display: block;
   }
 }

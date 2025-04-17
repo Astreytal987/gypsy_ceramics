@@ -47,6 +47,11 @@ a {
   text-decoration: none;
 }
 
+.white-header {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  transition: 0.6s;
+}
+
 .NavContact {
   text-decoration: underline;
   display: none;
@@ -82,11 +87,23 @@ a {
   .container {
     padding: 0 30px !important;
   }
+
+  .containerInnerCollection {
+    padding: 0 30px !important;
+  }
 }
 
 @media (max-width: 480px) {
   .container {
     padding: 0 0px !important;
+  }
+
+  .containerInner {
+    padding: 0 10px !important;
+  }
+
+  .containerInnerCollection {
+    padding: 0 10px !important;
   }
 }
 
@@ -95,6 +112,12 @@ a {
     padding: 0 0px !important;
   }
 }
+
+/* @media (max-width: 360px) {
+  .containerInner {
+    padding: 0 0px !important;
+  }
+} */
 
 .mainNavLowResActive {
   opacity: 1 !important;

@@ -8,7 +8,7 @@ const About = () => {
     const blabla2 = "В процессе работы над концепцией бренда возникла идея создать коллекцию, которая бы отражала дух свободы и страсти. Каждое изделие должно было быть не просто предметом интерьера, а настоящим произведением искусства, способным передать эмоции и атмосферу цыганской культуры. Так родился Freak circus."
   return (
     <Container className="container">
-        <h2 className={styles.AboutTitle}>О нас</h2>
+        <h2 className={styles.AboutTitle + " " + "containerInner"}>О нас</h2>
         <div class={styles.parent}>
             <div class={styles.imgLeft}>
                 <Image
@@ -22,11 +22,10 @@ const About = () => {
                 />
             </div>
             <div class={styles.textRight}>
-                <h2 class={styles.textRightTitle}>Наша история</h2>
-                <p class={styles.textRightText}>{blabla}</p>
-                <A href={'#'} className={styles.textRightA}>Узнать процесс создания</A>
+                <h2 className={styles.textRightTitle + " " + "containerInner"}>Наша история</h2>
+                <p className={styles.textRightText + " " + "containerInner"}>{blabla}</p>
+                <A href={'#'} className={styles.textRightA + " " + "containerInner"}>Узнать процесс создания</A>
             </div>
-            <div class={styles.textLeft}>{blabla2}</div>
             <div class={styles.ImgRight}>
             <Image
                 src="/rightBlack.png"
@@ -38,6 +37,7 @@ const About = () => {
                 quality={100} 
                 />
             </div>
+            <div class={styles.textLeft + " " + "containerInner"}>{blabla2}</div>
         </div>
     </Container>
   );

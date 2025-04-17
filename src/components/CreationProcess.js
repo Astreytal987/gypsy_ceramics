@@ -3,8 +3,8 @@ import Container from '../UI/Container.js';
 
 const CreationProcess = () => {
   return (
-    <Container className="container">
-        <h2 className={styles.title}>Процесс создания</h2>
+    <Container className={"container" + " " + "containerInnerCollection"}>
+        <h2 className={styles.title}>Процесс <br className={styles.BrActive}/> создания</h2>
         <div className={styles.gridBox}>
             <div className={styles.Collection}>
                 <div className={styles.gridTextBox}>
