@@ -13,6 +13,7 @@ const Banner = () => {
             layout="fill"
             quality={100}
             className={styles.BannerImg}
+            loading = "eager"
         />
         <div className={styles.containerSlogan}>
             <div className={styles.slogan}>

@@ -18,7 +18,8 @@ const About = () => {
                 objectFit="cover"
                 width={770} 
                 height={574}
-                quality={100} 
+                quality={100}
+                loading = "eager"
                 />
             </div>
             <div class={styles.textRight}>
@@ -35,6 +36,7 @@ const About = () => {
                 width={770} 
                 height={573}
                 quality={100} 
+                loading = "eager"
                 />
             </div>
             <div class={styles.textLeft + " " + "containerInner"}>{blabla2}</div>

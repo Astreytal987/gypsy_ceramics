@@ -47,6 +47,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={1080}
                     quality={100} 
+                    loading = "eager"
                     />
                 <Image
                     src="/snakeTwo.png"
@@ -56,6 +57,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={1080}
                     quality={100} 
+                    loading = "eager"
                     />
                 <Image
                     src="/snakeSecond.png"
@@ -65,6 +67,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={1080}
                     quality={100} 
+                    loading = "eager"
                     />
                 </div>
                 <div className={styles.textBlock + " " + "containerInnerCollection"}>
@@ -85,6 +88,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={550}
                     quality={100} 
+                    loading = "eager"
                     />
                 <Image
                     src="/chessTwo.png"
@@ -94,6 +98,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={550}
                     quality={100} 
+                    loading = "eager"
                     />
                 <Image
                     src="/chessSecond.png"
@@ -103,6 +108,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={550}
                     quality={100} 
+                    loading = "eager"
                     />
                 </div>
                 <div className={styles.textBlock + " " + "containerInnerCollection"}>
@@ -122,6 +128,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={1080}
                     quality={100} 
+                    loading = "eager"
                     />
                 <Image
                     src="/debutTwo.png"
@@ -131,6 +138,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={500}
                     quality={100} 
+                    loading = "eager"
                     />
                 <Image
                     src="/debutSecond.png"
@@ -140,6 +148,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={500}
                     quality={100} 
+                    loading = "eager"
                     />
                  </div>
                 <div className={styles.textBlock + " " + "containerInnerCollection"}>
@@ -158,6 +167,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={1080}
                     quality={100} 
+                    loading = "eager"
                     />
                 <div className={styles.textBlock + " " + "containerInnerCollection"}>
                     <p>{text8}</p>
@@ -177,6 +187,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={1080}
                     quality={100} 
+                    loading = "eager"
                     />
                 <Image
                     src="/uniqSecond.png"
@@ -186,6 +197,7 @@ const text13 = `Материалы и техника: Подсвечник из
                     width={890} 
                     height={1080}
                     quality={100} 
+                    loading = "eager"
                     />
                 </div>
                 <div className={styles.textBlock + " " + "containerInnerCollection"}>

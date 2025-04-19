@@ -1,9 +1,33 @@
 'use client'
 import styles from '@/styles/Header.module.css';
 import A from '../UI/A.js';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Header = () => {
+        useEffect(() => {
+            if (typeof window !== 'undefined') {
+              const header = document.querySelector('header');
+              let isScrolled = false;
+        
+              const handleScroll = () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+                if (scrollTop >= 2 && !isScrolled) {
+                  header.classList.add('white-header');
+                  isScrolled = true;
+                } else if (scrollTop < 2 && isScrolled) {
+                  header.classList.remove('white-header');
+                  isScrolled = false;
+                }
+              };
+        
+              window.addEventListener('scroll', handleScroll);
+              return () => {
+                window.removeEventListener('scroll', handleScroll);
+              };
+            }
+          }, []);
+
     const [isOpen, setIsOpen] = useState(false);
 
     const HandleOpenMenu = ()=> {
