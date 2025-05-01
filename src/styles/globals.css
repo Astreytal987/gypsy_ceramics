@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'Raleway';
+  src: url('../../public/fonts/Raleway-VariableFont_wght.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'PoiretOne';
   src: url('../../public/fonts/PoiretOne-Regular.woff2') format('woff2');
   font-weight: 400;
@@ -34,6 +42,8 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: #e4e6ef;
+  color: #303033;
 }
 
 * {

@@ -12,8 +12,10 @@
 .slogan {
   position: relative;
   top: 140px;
-  width: 762px;
+  display: inline-block;
   color: white;
+  background: rgba(73, 73, 77, 0.8);
+  padding: 20px;
 }
 
 .containerSlogan {
@@ -113,13 +115,15 @@
 .button {
   width: 251px;
   height: 48px;
-  background: #ffffff;
+  background: #c2aa3c;
   font-size: 24px;
+  color: white;
+  border: none;
 }
 
 @media (hover: hover) {
   .button:hover {
-    background-color: #c2aa3c;
+    background-color: #a38e2f;
   }
 }
 

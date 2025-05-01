@@ -51,6 +51,12 @@
   font-size: 24px;
 }
 
+@media (max-width: 1440px) {
+  .titleSpan {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
   .title {
     font-size: 36px;
@@ -74,9 +80,18 @@
     padding: 0 0px !important;
   }
 
-  /* .ImgContainer {
+  .ImgContainer {
     scroll-snap-type: y mandatory;
-  } ожидает */
+    overflow-y: scroll;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ImgContainer img {
+    scroll-snap-align: center;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 480px) {
