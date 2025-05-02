@@ -131,8 +131,10 @@ a {
 
 .mainNavLowResActive {
   opacity: 1 !important;
+  pointer-events: auto !important;
 }
 
 .mainNavLowResDisable {
   opacity: 0;
+  pointer-events: none;
 }

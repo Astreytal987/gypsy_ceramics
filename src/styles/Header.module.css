@@ -66,6 +66,7 @@
     padding: 79px 30px;
     /* max-width: 384px; */
     width: 100%;
+    pointer-events: none;
   }
 }
 

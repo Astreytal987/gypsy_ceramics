@@ -8,13 +8,13 @@ const Contact = () => {
       <div className={styles.contactBlock}>
         <h2 className={styles.contactsText}>Наши социальные сети</h2>
         <div className={styles.contacts}>
-          <A className={styles.contact} href="#">
+          <A className={styles.contact} animate={true} href="#">
             Instagram*
           </A>
-          <A className={styles.contact} href="#">
+          <A className={styles.contact} animate={true} href="#">
             Telegram
           </A>
-          <A className={styles.contact} href="#">
+          <A className={styles.contact} animate={true} href="#">
             WhatsApp
           </A>
         </div>

@@ -53,11 +53,6 @@ const Header = () => {
           </A>
         </li>
         <li>
-          <A href={'#'} color="black">
-            Отзывы
-          </A>
-        </li>
-        <li>
           <A href={'#contact'} color="black">
             Контакты
           </A>

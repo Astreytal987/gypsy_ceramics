@@ -28,11 +28,6 @@ const Header = () => {
                 </A>
               </li>
               <li>
-                <A href={'#'} color="rgba(48, 48, 51, 1)">
-                  Отзывы
-                </A>
-              </li>
-              <li>
                 <A href={'#contact'} color="rgba(48, 48, 51, 1)">
                   Контакты
                 </A>
