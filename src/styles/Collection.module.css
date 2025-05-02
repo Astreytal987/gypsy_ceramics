@@ -40,6 +40,11 @@
   height: 100vh;
   scroll-padding-bottom: 20px;
   position: sticky;
+  -ms-overflow-style: none;
+}
+
+.ImgContainer::-webkit-scrollbar {
+  width: 0;
 }
 
 .ImgContainerFull {
