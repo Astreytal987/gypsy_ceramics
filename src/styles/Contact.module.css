@@ -20,6 +20,7 @@
 
 .contact {
   font-size: 36px;
+  border-width: 2px;
 }
 
 @media (max-width: 1024px) {

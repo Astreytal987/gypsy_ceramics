@@ -38,22 +38,22 @@ const Header = () => {
       <p className={styles.brand}>Gypsy Ceramics</p>
       <ul className={`${styles.mainNav} ${isOpen ? 'mainNavLowResActive' : ''}`}>
         <li>
-          <A href={'#about'} color="black">
+          <A href={'#about'} color="#222222">
             О нас
           </A>
         </li>
         <li>
-          <A href={'#collection'} color="black">
+          <A href={'#collection'} color="#222222">
             Коллекция
           </A>
         </li>
         <li>
-          <A href={'#process'} color="black">
+          <A href={'#process'} color="#222222">
             Процесс создания
           </A>
         </li>
         <li>
-          <A href={'#contact'} color="black">
+          <A href={'#contact'} color="#222222">
             Контакты
           </A>
         </li>

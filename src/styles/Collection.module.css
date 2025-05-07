@@ -35,24 +35,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  overflow-y: auto;
-  scroll-snap-type: y mandatory;
-  height: 100vh;
-  scroll-padding-bottom: 20px;
-  position: sticky;
-  -ms-overflow-style: none;
-}
-
-.ImgContainer::-webkit-scrollbar {
-  width: 0;
-}
-
-.ImgContainerFull {
-  gap: 0px;
-}
-
-.ImgContainer > img {
-  scroll-snap-align: end;
 }
 
 .textBlock {
@@ -97,19 +79,6 @@
   .containerCollection {
     padding: 0 0px !important;
   }
-
-  .ImgContainer {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .ImgContainer img {
-    scroll-snap-align: center;
-    object-fit: cover;
-  }
 }
 
 @media (max-width: 480px) {
@@ -123,9 +92,5 @@
 
   .BrActive {
     display: block;
-  }
-
-  .ImgContainer {
-    height: 50vh;
   }
 }

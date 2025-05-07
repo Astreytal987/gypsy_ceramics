@@ -37,7 +37,7 @@ const Collection = () => {
       <div className={styles.collection}>
         <div className={styles.collectionItem}>
           <h3 className={styles.titleProp}>Мудрый Каа</h3>
-          <div className={`${styles.ImgContainer} ${styles.ImgContainerFull}`}>
+          <div className={styles.ImgContainer}>
             <Image
               src="/snakeFirst.png"
               alt="Описание изображения"
