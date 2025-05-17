@@ -28,6 +28,12 @@ const Collection = () => {
   const text12 = `Подсвечник имеет изысканную форму, напоминающую корону, с плавными линиями и асимметричными элементами. В верхней части расположены несколько «корон», которые служат местами для установки свечей. Каждая корона выполнена с детальной проработкой, что придаёт изделию особую выразительность. В дизайне присутствуют изогнутые линии и неожиданные формы, которые создают ощущение движения и игры. Эти элементы вызывают ассоциации с миром фантазий и снов, подчёркивая уникальность изделия.`;
   const text13 = `Материалы и техника: Подсвечник изготовлен вручную из высококачественной керамики. Мастера использовали традиционные техники лепки и обжига, что обеспечивает долговечность и прочность изделия. Поверхность подсвечника покрыта специальной глазурью, которая придаёт ему яркий цвет и блеск. Одной из ключевых особенностей подсвечника является его золочение. Золотые акценты добавляют роскоши и элегантности, подчёркивая королевскую тематику. Золото аккуратно нанесено на края корон и другие детали, создавая эффект светящегося сияния при зажжённых свечах.
  Это не просто предмет декора, это произведение искусства, которое привносит в пространство атмосферу магии и загадки. Он станет прекрасным подарком для ценителей уникального дизайна и искусства ручной работы.`;
+  const text14 =
+    'Изогнутая форма вазы создает эффект движения и динамики, а шахматный узор заставляет улететь за грань миров. Этот предмет станет настоящим акцентом в вашем интерьере, привлекая взгляды и вызывая восхищение. Каждый экземпляр изготовлен вручную, что делает его уникальным. Никакие две вещи не будут одинаковыми- Вы получаете эксклюзивный предмет, который подчеркнет ваш стиль и индивидуальность.';
+  const text15 =
+    'Используйте вазу как подсвечник для создания романтической атмосферы или как стильный элемент декора для цветов. Она прекрасно впишется в любой интерьер- от современного до классического. Подарите себе возможность добавить этот шедевр сюрреализма в свой дом. Закажите вазу/подсвечник прямо сейчас и дайте волю своему творческому началу!';
+  const text16 =
+    'Материалы и техника: Изделие изготовлено вручную из высококачественной керамики. Мастера использовали традиционные техники лепки и обжига, что обеспечивает долговечность и прочность изделия. Поверхность подсвечника покрыта специальной глазурью, которая придаёт ему яркий цвет и блеск.';
 
   return (
     <Container className={'container' + ' ' + styles.containerCollection}>
@@ -39,7 +45,7 @@ const Collection = () => {
           <h3 className={styles.titleProp}>Мудрый Каа</h3>
           <div className={styles.ImgContainer}>
             <Image
-              src="/snakeFirst.png"
+              src="/snakeFirst.jpg"
               alt="Описание изображения"
               layout="intrinsic"
               objectFit="cover"
@@ -80,7 +86,7 @@ const Collection = () => {
           <h3 className={styles.titleProp}>Шахматная доска</h3>
           <div className={styles.ImgContainer}>
             <Image
-              src="/chessFirst.png"
+              src="/chessFirst.JPG"
               alt="Описание изображения"
               layout="intrinsic"
               objectFit="cover"
@@ -90,7 +96,7 @@ const Collection = () => {
               loading="eager"
             />
             <Image
-              src="/chessTwo.png"
+              src="/chessTwo.JPG"
               alt="Описание изображения"
               layout="intrinsic"
               objectFit="cover"
@@ -100,7 +106,7 @@ const Collection = () => {
               loading="eager"
             />
             <Image
-              src="/chessSecond.png"
+              src="/chessSecond.JPG"
               alt="Описание изображения"
               layout="intrinsic"
               objectFit="cover"
@@ -157,6 +163,37 @@ const Collection = () => {
           </div>
         </div>
         <div className={styles.collectionItem}>
+          <h3 className={styles.titleProp}>Ладья</h3>
+          <div className={styles.ImgContainer}>
+            <Image
+              src="/rookFirst.JPG"
+              alt="Описание изображения"
+              layout="intrinsic"
+              objectFit="cover"
+              width={890}
+              height={1080}
+              quality={100}
+              loading="eager"
+            />
+            <Image
+              src="/rookSecond.JPG"
+              alt="Описание изображения"
+              layout="intrinsic"
+              objectFit="cover"
+              width={890}
+              height={500}
+              quality={100}
+              loading="eager"
+            />
+          </div>
+          <div className={styles.textBlock + ' ' + 'containerInnerCollection'}>
+            <p>{text14}</p>
+            <p>{text15}</p>
+            <p>{text16}</p>
+            <p className={styles.price}>Цена: 4 500 ₽</p>
+          </div>
+        </div>
+        <div className={styles.collectionItem}>
           <h3 className={styles.titleProp}>
             Богема цирка, <br className={styles.BrActive} /> Шут или Арлекин?
           </h3>
@@ -181,7 +218,7 @@ const Collection = () => {
           <h3 className={styles.titleProp}>«Морское величество»</h3>
           <div className={styles.ImgContainer}>
             <Image
-              src="/uniqFirst.png"
+              src="/PoseidonFirst.JPG"
               alt="Описание изображения"
               layout="intrinsic"
               objectFit="cover"
@@ -191,7 +228,17 @@ const Collection = () => {
               loading="eager"
             />
             <Image
-              src="/uniqSecond.png"
+              src="/PoseidonTwo.JPG"
+              alt="Описание изображения"
+              layout="intrinsic"
+              objectFit="cover"
+              width={890}
+              height={1080}
+              quality={100}
+              loading="eager"
+            />
+            <Image
+              src="/PoseidonSecond.JPG"
               alt="Описание изображения"
               layout="intrinsic"
               objectFit="cover"

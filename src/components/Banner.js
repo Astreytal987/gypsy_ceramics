@@ -17,11 +17,10 @@ const Banner = () => {
       <div className={styles.containerSlogan}>
         <div className={styles.slogan}>
           <h1>
-            Уникальная керамика <br /> для вашего <br className={styles.BrActive} /> вдохновения
+            Уникальная керамика <br /> для вашего <br className={styles.BrActiveH1} /> вдохновения
           </h1>
           <h2>
-            Современное искусство <br className={styles.BrActive} /> и керамика{' '}
-            <br className={styles.BrActive} /> ручной работы
+            Современное искусство <br className={styles.BrActiveH2} /> и керамика ручной работы
           </h2>
         </div>
         <div className={styles.buttonCenter}>
