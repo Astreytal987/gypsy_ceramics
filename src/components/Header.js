@@ -30,6 +30,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const HandleOpenMenu = () => {
+    console.log('gel');
     setIsOpen(!isOpen);
   };
 
@@ -37,22 +38,22 @@ const Header = () => {
     <header className={styles.navbar}>
       <p className={styles.brand}>Gypsy Ceramics</p>
       <ul className={`${styles.mainNav} ${isOpen ? 'mainNavLowResActive' : ''}`}>
-        <li>
+        <li onClick={isOpen ? HandleOpenMenu : null}>
           <A href={'#about'} color="#222222">
             О нас
           </A>
         </li>
-        <li>
+        <li onClick={isOpen ? HandleOpenMenu : null}>
           <A href={'#collection'} color="#222222">
             Коллекция
           </A>
         </li>
-        <li>
+        <li onClick={isOpen ? HandleOpenMenu : null}>
           <A href={'#process'} color="#222222">
             Процесс создания
           </A>
         </li>
-        <li>
+        <li onClick={isOpen ? HandleOpenMenu : null}>
           <A href={'#contact'} color="#222222">
             Контакты
           </A>

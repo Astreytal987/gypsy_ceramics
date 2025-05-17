@@ -1,96 +1,96 @@
 .gridBox {
-  display: flex;
-  gap: 10px;
-  margin-top: 60px;
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
 }
 
 .BrActive {
-  display: none;
+    display: none;
 }
 
 .Collection {
-  grid-area: 1 / 1 / 2 / 3;
-  background: #d0d2db;
+    grid-area: 1 / 1 / 2 / 3;
+    /* background: #d0d2db; */
 }
 
 .Gift {
-  grid-area: 1 / 3 / 2 / 4;
-  background: #d0d2db;
+    grid-area: 1 / 3 / 2 / 4;
+    /* background: #d0d2db; */
 }
 
 .Brend {
-  grid-area: 1 / 4 / 2 / 5;
-  background: #d0d2db;
+    grid-area: 1 / 4 / 2 / 5;
+    /* background: #d0d2db; */
 }
 
 .gridTextBox {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 20px 20px;
-  font-family: 'PTSerif-Regular';
-  font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 20px;
+    font-family: 'PTSerif-Regular';
+    font-weight: 400;
 }
 
 .title {
-  font-family: 'CormorantUnicase-Medium';
-  font-weight: 500;
-  font-size: 48px;
+    font-family: 'CormorantUnicase-Medium';
+    font-weight: 500;
+    font-size: 48px;
 }
 
 .titlegrid {
-  font-family: 'CormorantUnicase-Medium';
-  font-weight: 500;
-  font-size: 24px;
+    font-family: 'CormorantUnicase-Medium';
+    font-weight: 500;
+    font-size: 24px;
 }
 
 @media (max-width: 1024px) {
-  .title {
-    font-size: 36px;
-  }
+    .title {
+        font-size: 36px;
+    }
 
-  .titlegrid {
-    font-size: 20px;
-  }
+    .titlegrid {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 768px) {
-  .title {
-    font-size: 36px;
-  }
+    .title {
+        font-size: 36px;
+    }
 
-  .titlegrid {
-    font-size: 20px;
-  }
+    .titlegrid {
+        font-size: 20px;
+    }
 
-  .gridBox {
-    flex-direction: column;
-  }
+    .gridBox {
+        flex-direction: column;
+    }
 
-  .Collection {
-    grid-area: 1 / 1 / 2 / 2;
-  }
+    .Collection {
+        grid-area: 1 / 1 / 2 / 2;
+    }
 
-  .Gift {
-    grid-area: 2 / 1 / 3 / 2;
-  }
+    .Gift {
+        grid-area: 2 / 1 / 3 / 2;
+    }
 
-  .Brend {
-    grid-area: 3 / 1 / 4 / 2;
-  }
+    .Brend {
+        grid-area: 3 / 1 / 4 / 2;
+    }
 }
 
 @media (max-width: 480px) {
-  .title {
-    font-size: 42px;
-  }
+    .title {
+        font-size: 42px;
+    }
 
-  .BrActive {
-    display: block;
-  }
+    .BrActive {
+        display: block;
+    }
 
-  .titlegrid {
-    font-size: 16px;
-  }
+    .titlegrid {
+        font-size: 16px;
+    }
 }
